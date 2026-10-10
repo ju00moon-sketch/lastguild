@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="최후의 길드 릴리 모델의 칼날 수정 전후와 남은 어깨·손 문제를 실제 렌더로 확인합니다.">
+  <title>릴리 모델 검수 | 최후의 길드</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="review.css">
+  <script src="review.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">모델 비교로 바로 가기</a>
+  <div class="wrap">
+    <header class="page-header">
+      <a class="back-link" href="../">← 캐릭터 원화</a>
+      <p class="eyebrow">최후의 길드 · 2026. 10. 10.</p>
+      <h1>릴리 모델 검수</h1>
+      <p class="intro">칼날은 일부 개선됐고, 어깨와 손은 아직 수정이 필요합니다.</p>
+      <p class="note">아래는 제작 도구에서 촬영한 실제 3D 렌더입니다. 게임 화면이나 회전형 3D 뷰어는 아니며, 전체 모델 검수는 끝나지 않았습니다.</p>
+    </header>
+    <main id="main">
+      <section class="blade-section" aria-labelledby="blade-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">수정 전후</p><h2 id="blade-title">머리카락에 가려지던 칼날</h2></div>
+          <p class="status">일부 시점에서 개선 확인</p>
+        </div>
+        <p class="description">공격 동작의 같은 시점(22프레임)을 비교합니다. 머리·칼날 부분만 잘라 확대한 그림이며, 그림을 누르면 전체 자세를 볼 수 있습니다.</p>
+        <div class="view-controls" role="group" aria-label="검수 시점 선택">
+          <button type="button" data-view="front" aria-pressed="true">정면</button>
+          <button type="button" data-view="side" aria-pressed="false">옆</button>
+          <button type="button" data-view="back" aria-pressed="false">뒤</button>
+          <button type="button" data-view="game" aria-pressed="false">사선</button>
+        </div>
+        <p id="empty-views" class="empty-state" hidden>아직 공개된 비교 시점이 없습니다. 아래의 문제 부위와 원화는 확인하실 수 있습니다.</p>
+        <div class="comparison" id="comparison">
+          <figure class="model-figure">
+            <figcaption><h3>수정 전</h3><span>공격 22 · <span data-view-label>정면</span></span></figcaption>
+            <a class="render-link blade-render" id="before-link" href="images/blade-before-front-full.png" aria-label="수정 전 정면 전체 자세 보기">
+              <img id="before-image" src="images/blade-before-front.png" width="950" height="750" alt="칼날 수정 전 릴리의 공격 22프레임 정면 확대" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+            <p class="image-link-hint">그림을 눌러 전체 자세 보기</p>
+          </figure>
+          <figure class="model-figure">
+            <figcaption><h3>수정 후</h3><span>공격 22 · <span data-view-label>정면</span></span></figcaption>
+            <a class="render-link blade-render" id="after-link" href="images/blade-after-front-full.png" aria-label="수정 후 정면 전체 자세 보기">
+              <img id="after-image" src="images/blade-after-front.png" width="950" height="750" alt="칼날 수정 후 릴리의 공격 22프레임 정면 확대" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+            <p class="image-link-hint">그림을 눌러 전체 자세 보기</p>
+          </figure>
+        </div>
+        <p class="finding">칼날 경로를 조정한 뒤 정면에서 칼날이 이어져 보입니다. 뒤쪽에서 머리카락에 일부 가려지는 것은 남아 있으며, 이 비교만으로 전체 동작의 교차·변형 문제가 해결됐다고 판단하지는 않습니다.</p>
+        <noscript><p class="note">시점 선택에는 자바스크립트가 필요합니다. 현재 정면 비교와 아래 두 문제 부위는 그대로 볼 수 있습니다.</p></noscript>
+      </section>
+      <section class="issue-section" aria-labelledby="shoulder-title">
+        <div class="issue-copy">
+          <p class="eyebrow">남은 문제 · 어깨</p>
+          <h2 id="shoulder-title">접히는 어깨 보호대</h2>
+          <p>승리 동작에서 왼쪽 어깨 보호대가 접히며 검은 안쪽 면이 드러납니다. 칼날 수정과는 별개의 문제입니다.</p>
+          <p class="note">승리 43프레임 · 옆 · 부분 확대<br>칼날 수정본에서도 이 부위는 변경되지 않았습니다.</p>
+        </div>
+        <figure class="detail-figure">
+          <a class="render-link detail-render" href="images/shoulder-full.png" aria-label="어깨 문제의 승리 43프레임 전체 자세 보기">
+            <img src="images/shoulder.png" width="295" height="250" alt="릴리의 왼쪽 어깨 보호대가 접혀 검은 안쪽 면이 드러난 부분" loading="lazy" decoding="async">
+            <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+          </a>
+          <figcaption>부분 확대 · 그림을 누르면 전체 자세</figcaption>
+        </figure>
+      </section>
+      <section class="issue-section" aria-labelledby="grip-title">
+        <div class="issue-copy">
+          <p class="eyebrow">남은 문제 · 오른손</p>
+          <h2 id="grip-title">손잡이를 감싸지 않는 손</h2>
+          <p>검은 손을 따라 움직이지만 손가락이 펴져 있어, 손잡이를 제대로 쥔 모습이 아닙니다. 손 형태를 별도로 고쳐야 합니다.</p>
+          <p class="note">공격 13프레임 · 옆 · 부분 확대<br>칼날 수정본에서도 이 부위는 변경되지 않았습니다.</p>
+        </div>
+        <figure class="detail-figure">
+          <a class="render-link detail-render" href="images/grip-full.png" aria-label="오른손 문제의 공격 13프레임 전체 자세 보기">
+            <img src="images/grip.png" width="185" height="175" alt="검 손잡이를 감싸지 못하고 펴져 있는 릴리의 오른손 손가락" loading="lazy" decoding="async">
+            <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+          </a>
+          <figcaption>부분 확대 · 그림을 누르면 전체 자세</figcaption>
+        </figure>
+      </section>
+    </main>
+    <footer><p>이 페이지는 문제 확인용입니다. 완성 모델·출시 빌드가 아닙니다.</p><a href="../">16명 캐릭터 원화 보기</a></footer>
+  </div>
+</body>
+</html>
