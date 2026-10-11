@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="최후의 길드 릴리 모델의 칼날 수정 전후와 남은 어깨·손 문제를 실제 렌더로 확인합니다.">
+  <meta name="description" content="공개 손 모델을 이용한 릴리의 검 쥐는 자세와 기존 칼날·어깨 검수 기록입니다. 실제 3D 렌더이며 그립과 부착은 아직 수정 중입니다.">
   <title>릴리 모델 검수 | 최후의 길드</title>
   <link rel="icon" href="data:,">
   <link rel="stylesheet" href="review.css">
+  <noscript><style>.image-status, .view-controls { display: none; }</style></noscript>
   <script src="review.js" defer></script>
 </head>
 <body>
@@ -14,12 +15,123 @@
   <div class="wrap">
     <header class="page-header">
       <a class="back-link" href="../">← 캐릭터 원화</a>
-      <p class="eyebrow">최후의 길드 · 2026. 10. 10.</p>
+      <p class="eyebrow">최후의 길드 · 2026. 10. 11. 갱신</p>
       <h1>릴리 모델 검수</h1>
-      <p class="intro">칼날은 일부 개선됐고, 어깨와 손은 아직 수정이 필요합니다.</p>
+      <p class="intro">공개 손 모델의 새 비교와 기존 칼날·어깨 검수 기록입니다.</p>
       <p class="note">아래는 제작 도구에서 촬영한 실제 3D 렌더입니다. 게임 화면이나 회전형 3D 뷰어는 아니며, 전체 모델 검수는 끝나지 않았습니다.</p>
     </header>
     <main id="main">
+      <section class="candidate-section" aria-labelledby="public-hand-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">새 비교 · 공개 손 모델 · 1차 맞춤</p><h2 id="public-hand-title">손잡이를 쥐는 두 자세</h2></div>
+          <p class="status">그립·부착 FAIL · 수정 중</p>
+        </div>
+        <p class="description">공개 모델의 기존 두 자세를 릴리의 원본 검과 비교했습니다. 자세 변환은 확인했지만, 손잡이를 감싸는 위치와 손목·소매 연결은 아직 맞지 않습니다. 회색은 형상을 보기 위한 검사용 재질입니다.</p>
+        <div class="comparison">
+          <figure class="model-figure">
+            <figcaption><h3>자세 A · Grip</h3><span>손과 검만 표시</span></figcaption>
+            <a class="render-link" href="images/public-hand-v1-grip-isolated-c.png" aria-label="공개 손 자세 A와 원본 검 비교 크게 보기">
+              <img src="images/public-hand-v1-grip-isolated-c.png" width="1024" height="1024" alt="원본 검 손잡이에 맞춰 놓았지만 손가락과 손잡이의 위치가 어긋난 공개 손 자세 A" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+            <p class="image-link-hint">더 닫힌 자세입니다. 손잡이를 실제로 감싼 그립으로는 통과하지 못했습니다.</p>
+          </figure>
+          <figure class="model-figure">
+            <figcaption><h3>자세 B · Grip Shaft</h3><span>손과 검만 표시</span></figcaption>
+            <a class="render-link" href="images/public-hand-v1-shaft-isolated-c.png" aria-label="공개 손 자세 B와 원본 검 비교 크게 보기">
+              <img src="images/public-hand-v1-shaft-isolated-c.png" width="1024" height="1024" alt="손가락 사이 공간이 크고 검 손잡이 끝의 금색 장식이 손 영역과 겹치는 공개 손 자세 B" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+            <p class="image-link-hint">손가락 사이 공간과 검 끝 장식의 겹침이 남아 있습니다.</p>
+          </figure>
+          <figure class="model-figure">
+            <figcaption><h3>자세 A · 원래 몸 포함</h3><span>검사용 겹쳐 보기</span></figcaption>
+            <a class="render-link" href="images/public-hand-v1-grip-context-d.png" aria-label="공개 손 자세 A의 원래 몸과 소매 포함 비교 크게 보기">
+              <img src="images/public-hand-v1-grip-context-d.png" width="1024" height="1024" alt="기존 릴리 몸과 소매를 남긴 상태에서 새 손의 크기와 연결 위치를 비교하는 장면" loading="lazy" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+          </figure>
+          <figure class="model-figure">
+            <figcaption><h3>자세 B · 원래 몸 포함</h3><span>검사용 겹쳐 보기</span></figcaption>
+            <a class="render-link" href="images/public-hand-v1-shaft-context-d.png" aria-label="공개 손 자세 B의 원래 몸과 소매 포함 비교 크게 보기">
+              <img src="images/public-hand-v1-shaft-context-d.png" width="1024" height="1024" alt="기존 손과 머리카락을 보존한 채 공개 손 자세 B를 겹쳐 소매와의 연결을 비교하는 장면" loading="lazy" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+          </figure>
+        </div>
+        <p class="finding">원래 손은 삭제하지 않았습니다. 몸을 숨긴 위 두 그림은 가림을 분리해 보는 보조 자료일 뿐, 완성된 부착이 아닙니다. 실제 그립을 먼저 맞춘 뒤 검의 위치·방향과 팔·손목 자세를 조정합니다. 어깨 변형과 전체 동작 검수도 남아 있습니다.</p>
+        <details class="render-index">
+          <summary>다른 12개 시점 보기</summary>
+          <p class="note">시점 A·B·C·D는 촬영 위치 구분입니다. 손바닥·손등 방향명은 확인 중입니다. 모두 1024 × 1024 원본 크기로 열립니다.</p>
+          <div class="comparison">
+            <div>
+              <h3>자세 A · Grip</h3>
+              <ul>
+                <li><a href="images/public-hand-v1-grip-isolated-a.png">손과 검 · 시점 A</a></li>
+                <li><a href="images/public-hand-v1-grip-isolated-b.png">손과 검 · 시점 B</a></li>
+                <li><a href="images/public-hand-v1-grip-isolated-d.png">손과 검 · 시점 D</a></li>
+                <li><a href="images/public-hand-v1-grip-context-a.png">원래 몸 포함 · 시점 A</a></li>
+                <li><a href="images/public-hand-v1-grip-context-b.png">원래 몸 포함 · 시점 B</a></li>
+                <li><a href="images/public-hand-v1-grip-context-c.png">원래 몸 포함 · 시점 C</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>자세 B · Grip Shaft</h3>
+              <ul>
+                <li><a href="images/public-hand-v1-shaft-isolated-a.png">손과 검 · 시점 A</a></li>
+                <li><a href="images/public-hand-v1-shaft-isolated-b.png">손과 검 · 시점 B</a></li>
+                <li><a href="images/public-hand-v1-shaft-isolated-d.png">손과 검 · 시점 D</a></li>
+                <li><a href="images/public-hand-v1-shaft-context-a.png">원래 몸 포함 · 시점 A</a></li>
+                <li><a href="images/public-hand-v1-shaft-context-b.png">원래 몸 포함 · 시점 B</a></li>
+                <li><a href="images/public-hand-v1-shaft-context-c.png">원래 몸 포함 · 시점 C</a></li>
+              </ul>
+            </div>
+          </div>
+        </details>
+        <p class="note source-note">손 모델: DigitalN8m4r3 / Miodrag Sejic, <a href="https://github.com/GodotVR/godot-xr-tools/tree/6c6189bdfcdf855052ef1aeb9f3e0ec4c7a7eb60/addons/godot-xr-tools/hands">GodotVR 공개 손 자료</a>의 모델 전용 CC0. 자세 자료: Godot XR Tools, Copyright (c) 2018–2023 Bastiaan Olij and Contributors, <a href="https://github.com/GodotVR/godot-xr-tools/blob/6c6189bdfcdf855052ef1aeb9f3e0ec4c7a7eb60/LICENSE">MIT</a>. 이 페이지에는 모델 파일이 아닌 검수 렌더만 공개합니다.</p>
+      </section>
+      <section class="candidate-section" aria-labelledby="hand-candidate-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">보존 기록 · 중간 후보 rb_o3</p><h2 id="hand-candidate-title">이전 오른손 수정 기록</h2></div>
+          <p class="status">형상 FAIL · 파지·접촉 BLOCKED</p>
+        </div>
+        <p class="description">손 형태를 수정하던 중간 후보의 기본 자세(REST)입니다. 동작 클립의 0프레임이나 완성된 그립이 아닙니다. 그림을 누르면 원본 크기로 볼 수 있습니다.</p>
+        <div class="comparison">
+          <figure class="model-figure">
+            <figcaption><h3>손바닥</h3><span>형상 FAIL</span></figcaption>
+            <a class="render-link" href="images/grip-rbo3-palm.png" aria-label="rb_o3 손바닥 검수 렌더 크게 보기">
+              <img src="images/grip-rbo3-palm.png" width="1536" height="1536" alt="손가락이 갈고리처럼 굽고 틈과 검은 마디가 남은 릴리 오른손 손바닥" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+            <p class="image-link-hint">손가락 사이 틈과 검은 마디가 남아 있습니다. 형상 검수를 통과하지 못했습니다.</p>
+          </figure>
+          <figure class="model-figure">
+            <figcaption><h3>손등</h3><span>형상 FAIL</span></figcaption>
+            <a class="render-link" href="images/grip-rbo3-back.png" aria-label="rb_o3 손등 검수 렌더 크게 보기">
+              <img src="images/grip-rbo3-back.png" width="1536" height="1536" alt="손가락별 어두운 띠와 분리가 남아 있는 릴리 오른손 손등" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+            <p class="image-link-hint">손가락별 어두운 띠와 분리가 남아 있습니다.</p>
+          </figure>
+          <figure class="model-figure">
+            <figcaption><h3>엄지와 대용 손잡이</h3><span>접촉 BLOCKED</span></figcaption>
+            <a class="render-link" href="images/grip-rbo3-thumb.png" aria-label="rb_o3 엄지와 대용 손잡이 검수 렌더 크게 보기">
+              <img src="images/grip-rbo3-thumb.png" width="1536" height="1536" alt="분홍색 대용 원통을 함께 표시한 릴리 오른손 엄지 부근" loading="lazy" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+            <p class="image-link-hint">분홍색은 실제 검이 아닌 대용 원통입니다. 엄지와 0.504mm 틈이 있어 접촉을 입증하지 못했습니다.</p>
+          </figure>
+          <figure class="model-figure">
+            <figcaption><h3>새끼손가락 쪽</h3><span>가림 BLOCKED</span></figcaption>
+            <a class="render-link" href="images/grip-rbo3-pinky.png" aria-label="rb_o3 새끼손가락 쪽 자연 가림 렌더 크게 보기">
+              <img src="images/grip-rbo3-pinky.png" width="1536" height="1536" alt="머리카락에 크게 가려져 손잡이를 쥔 상태를 확인하기 어려운 오른손" loading="lazy" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+            <p class="image-link-hint">가리는 머리카락을 지우지 않은 실제 상태입니다. 이 시점에서는 파지를 확인하지 못했습니다.</p>
+          </figure>
+        </div>
+        <p class="finding">자체 메시 제작의 후속 작업은 중단하고 원본과 검수 자료를 보존했습니다. 위 그림은 공개 모델을 활용한 새 후보나 R17의 개선 결과가 아닙니다. 손 검수 뒤 검 부착·동작·게임 반입도 별도로 확인해야 합니다.</p>
+      </section>
       <section class="blade-section" aria-labelledby="blade-title">
         <div class="section-heading">
           <div><p class="eyebrow">수정 전후</p><h2 id="blade-title">머리카락에 가려지던 칼날</h2></div>
@@ -52,7 +164,7 @@
           </figure>
         </div>
         <p class="finding">칼날 경로를 조정한 뒤 정면에서 칼날이 이어져 보입니다. 뒤쪽에서 머리카락에 일부 가려지는 것은 남아 있으며, 이 비교만으로 전체 동작의 교차·변형 문제가 해결됐다고 판단하지는 않습니다.</p>
-        <noscript><p class="note">시점 선택에는 자바스크립트가 필요합니다. 현재 정면 비교와 아래 두 문제 부위는 그대로 볼 수 있습니다.</p></noscript>
+        <noscript><p class="note">시점 선택에는 자바스크립트가 필요합니다. 정면 비교와 정지 검수 그림은 그대로 볼 수 있습니다.</p></noscript>
       </section>
       <section class="issue-section" aria-labelledby="shoulder-title">
         <div class="issue-copy">
