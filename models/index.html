@@ -21,9 +21,61 @@
       <p class="note">아래는 제작 도구에서 촬영한 실제 3D 렌더입니다. 게임 화면이나 회전형 3D 뷰어는 아니며, 전체 모델 검수는 끝나지 않았습니다.</p>
     </header>
     <main id="main">
+      <section class="candidate-section" aria-labelledby="hand-fit-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">최신 비교 · 공개 손 모델 · 2차 맞춤</p><h2 id="hand-fit-title">손 방향·크기를 맞춘 새 후보</h2></div>
+          <p class="status">그립·손목 FAIL · 수정 중</p>
+        </div>
+        <p class="description">손의 방향을 바로잡고 크기와 손가락 굽힘을 조정했습니다. 검을 감싸는 형태는 보이지만 엄지의 지지, 손가락 내부 겹침, 소매와의 연결은 아직 통과하지 못했습니다. 검은 원본 크기를 유지한 위치 확인용 사본이며, 회색 손은 검사용 재질입니다.</p>
+        <div class="comparison">
+          <figure class="model-figure">
+            <figcaption><h3>손바닥 · 감싸 쥠</h3><span>손과 검만 표시</span></figcaption>
+            <a class="render-link" href="images/public-hand-fit-v2-isolated-palm.png" aria-label="2차 맞춤 손바닥과 검 크게 보기">
+              <img src="images/public-hand-fit-v2-isolated-palm.png" width="1024" height="1024" alt="원본 검 손잡이 둘레로 굽힌 손가락과 그 위에 놓인 엄지를 보여 주는 새 공개 손 후보" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+            <p class="image-link-hint">검과 손의 명확한 관통은 검출되지 않았지만, 이 결과만으로 올바른 그립을 뜻하지는 않습니다.</p>
+          </figure>
+          <figure class="model-figure">
+            <figcaption><h3>엄지 쪽 · 남은 틈</h3><span>지지 미확인</span></figcaption>
+            <a class="render-link" href="images/public-hand-fit-v2-isolated-thumb.png" aria-label="2차 맞춤 엄지와 손잡이 끝 크게 보기">
+              <img src="images/public-hand-fit-v2-isolated-thumb.png" width="1024" height="1024" alt="검 손잡이 끝을 둘러싼 손과 엄지 쪽 열린 공간을 옆에서 본 검수 장면" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+            <p class="image-link-hint">엄지 쪽 공간이 남아 있어 손잡이를 안정적으로 지지하는지 더 수정해야 합니다.</p>
+          </figure>
+          <figure class="model-figure">
+            <figcaption><h3>손가락 안쪽</h3><span>겹침 FAIL</span></figcaption>
+            <a class="render-link" href="images/public-hand-fit-v2-isolated-pinky.png" aria-label="2차 맞춤 손가락 안쪽 크게 보기">
+              <img src="images/public-hand-fit-v2-isolated-pinky.png" width="1024" height="1024" alt="안으로 깊게 굽힌 손가락들이 겹쳐 보이는 새 후보의 새끼손가락 쪽" loading="lazy" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+            <p class="image-link-hint">내부 교차가 남아 있습니다. 손가락을 더 닫기만 하는 방식으로 완료 처리하지 않습니다.</p>
+          </figure>
+          <figure class="model-figure">
+            <figcaption><h3>원래 몸·소매와 비교</h3><span>손목 맞춤 FAIL</span></figcaption>
+            <a class="render-link" href="images/public-hand-fit-v2-context-back.png" aria-label="2차 맞춤 손목과 원래 소매 크게 보기">
+              <img src="images/public-hand-fit-v2-context-back.png" width="1024" height="1024" alt="원래 펼친 손을 보존한 채 회색 후보 손을 겹쳐 손목과 소매의 어긋남을 비교하는 장면" loading="lazy" decoding="async">
+              <span class="image-status" role="status">그림을 불러오는 중입니다.</span>
+            </a>
+            <p class="image-link-hint">원래 손을 지우지 않은 비교입니다. 기존 손과의 중복, 새 손목의 어긋남을 구분해 봅니다.</p>
+          </figure>
+        </div>
+        <p class="finding">앞의 세 그림은 몸을 숨긴 보조 자료입니다. 자연스러운 가림이나 손목 접합을 통과했다는 뜻이 아닙니다. 그립 수정 뒤 검 부착·팔 자세·전체 동작을 검수하며, 어깨 변형도 별도로 해결해야 합니다.</p>
+        <details class="render-index">
+          <summary>2차 맞춤의 다른 4개 시점 보기</summary>
+          <ul>
+            <li><a href="images/public-hand-fit-v2-isolated-back.png">손과 검 · 손등</a></li>
+            <li><a href="images/public-hand-fit-v2-context-palm.png">원래 몸 포함 · 손바닥</a></li>
+            <li><a href="images/public-hand-fit-v2-context-thumb.png">원래 몸 포함 · 엄지 쪽</a></li>
+            <li><a href="images/public-hand-fit-v2-context-pinky.png">원래 몸 포함 · 새끼손가락 쪽 가림</a></li>
+          </ul>
+        </details>
+        <p class="note source-note">검수 렌더 8장만 공개하며 모델 파일은 배포하지 않습니다. <a href="#public-hand-license">공개 손 모델·자세의 출처와 라이선스</a></p>
+      </section>
       <section class="candidate-section" aria-labelledby="public-hand-title">
         <div class="section-heading">
-          <div><p class="eyebrow">새 비교 · 공개 손 모델 · 1차 맞춤</p><h2 id="public-hand-title">손잡이를 쥐는 두 자세</h2></div>
+          <div><p class="eyebrow">보존 기록 · 공개 손 모델 · 1차 맞춤</p><h2 id="public-hand-title">이전 두 자세 비교</h2></div>
           <p class="status">그립·부착 FAIL · 수정 중</p>
         </div>
         <p class="description">공개 모델의 기존 두 자세를 릴리의 원본 검과 비교했습니다. 자세 변환은 확인했지만, 손잡이를 감싸는 위치와 손목·소매 연결은 아직 맞지 않습니다. 회색은 형상을 보기 위한 검사용 재질입니다.</p>
@@ -88,7 +140,7 @@
             </div>
           </div>
         </details>
-        <p class="note source-note">손 모델: DigitalN8m4r3 / Miodrag Sejic, <a href="https://github.com/GodotVR/godot-xr-tools/tree/6c6189bdfcdf855052ef1aeb9f3e0ec4c7a7eb60/addons/godot-xr-tools/hands">GodotVR 공개 손 자료</a>의 모델 전용 CC0. 자세 자료: Godot XR Tools, Copyright (c) 2018–2023 Bastiaan Olij and Contributors, <a href="https://github.com/GodotVR/godot-xr-tools/blob/6c6189bdfcdf855052ef1aeb9f3e0ec4c7a7eb60/LICENSE">MIT</a>. 이 페이지에는 모델 파일이 아닌 검수 렌더만 공개합니다.</p>
+        <p class="note source-note" id="public-hand-license">손 모델: DigitalN8m4r3 / Miodrag Sejic, <a href="https://github.com/GodotVR/godot-xr-tools/tree/6c6189bdfcdf855052ef1aeb9f3e0ec4c7a7eb60/addons/godot-xr-tools/hands">GodotVR 공개 손 자료</a>의 모델 전용 CC0. 자세 자료: Godot XR Tools, Copyright (c) 2018–2023 Bastiaan Olij and Contributors, <a href="https://github.com/GodotVR/godot-xr-tools/blob/6c6189bdfcdf855052ef1aeb9f3e0ec4c7a7eb60/LICENSE">MIT</a>. 이 페이지에는 모델 파일이 아닌 검수 렌더만 공개합니다.</p>
       </section>
       <section class="candidate-section" aria-labelledby="hand-candidate-title">
         <div class="section-heading">
