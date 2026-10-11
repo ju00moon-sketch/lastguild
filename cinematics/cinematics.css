@@ -1,0 +1,21 @@
+.page-nav { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-bottom: 24px; }
+.page-nav a, .section-link, .file-link { display: inline-flex; align-items: center; min-height: 44px; }
+.section-link { margin-top: 12px; }
+.work-section { border-top: 1px solid var(--line); padding: 32px 0 40px; scroll-margin-top: 24px; }
+.video-row { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 28px; align-items: start; margin-top: 22px; }
+.video-figure video { display: block; width: 100%; height: auto; background: #1b222c; border: 1px solid var(--line); }
+video:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+.media-status { min-height: 25px; margin-top: 8px; }
+.video-figure figcaption, .board-figure figcaption { color: var(--muted); font-size: 14px; margin-top: 8px; }
+.video-notes p + p { margin-top: 14px; }
+.video-notes .file-link { margin-top: 12px; }
+.board-figure { margin: 24px 0; }
+.board-figure .render-link { min-height: 160px; }
+.pose-requirements { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; margin-top: 24px; }
+.pose-requirements ul { padding-left: 22px; margin: 10px 0 0; }
+.pose-requirements li + li { margin-top: 8px; }
+@media (max-width: 760px) {
+  .video-row, .pose-requirements { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .work-section { padding: 28px 0 32px; }
+  .page-nav { column-gap: 22px; }
+}
