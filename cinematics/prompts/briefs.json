@@ -1,0 +1,290 @@
+{
+  "version": "2026-10-12-r2",
+  "characters": [
+    {
+      "id":"lily", "name":"릴리", "title":"백은의 서약",
+      "basis":"릴리 개별 기획 v0.3을 우선합니다. ‘꺾이지 않는 깃발’은 이름·효과 전체가 미확정인 제안입니다. 검 서약과 방패 보호의 시각적 방향을 쓰되 새 전투 효과를 확정하지 않습니다.",
+      "awakening":{
+        "name":"꺾이지 않는 깃발", "status":"최신 개별 기획의 미확정 제안",
+        "intent":"서약을 마친 기사가 실제로 앞으로 나서 동료를 지킨다는 인상입니다. 검·팔·몸통·방패가 함께 움직이는 보호 동작이 중심입니다.",
+        "timing":"대략 0~1초 서약 준비 / 1~3초 방패 전진과 은빛 보호면 / 3~4초 안정된 방어 자세로 회수",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for the oath, 1-3 seconds for advancing the shield and opening the silver protection, and 3-4 seconds for recovery.",
+        "flow":"검을 세워 결의를 보이고, 방패를 앞으로 가져와 체중을 실어 버틴 뒤 은빛 보호면을 펼칩니다. 마지막은 전투에 돌아갈 수 있는 안정된 방어 자세로 정리합니다. 각 단계의 정확한 자세나 길이는 자연스러운 동작에 맡깁니다.",
+        "camera":"얼굴의 결의에서 방패의 무게로 시선을 옮기고, 보호면이 펼쳐질 때 공간을 넓게 보여 주는 방향입니다. 틸트·이동·풀백의 조합은 자유롭게 선택합니다.",
+        "input":"현재 전신 원화로 시작할 수 있습니다. 받은 검서약 상반신과 전신은 추가 참고이며, 둘을 함께 쓴다면 검·방패의 세부를 먼저 맞춥니다. 전신 정지 원화가 이미 전면 보호 자세라는 뜻은 아닙니다. 큰 동작 연결이 어긋날 때만 보완 포즈를 준비합니다.",
+        "references":[{"href":"../media/kp1-received.png","label":"받은 검서약 자세 보기"},{"href":"../media/full-body-received.png","label":"받은 전신 자세 보기"}],
+        "sound":"서약에는 가는 금속음, 방패를 앞세우는 순간에는 발 디딤과 중저역 무게, 보호면에는 짧고 맑은 고역을 제안합니다. 복귀 때 잔향을 비웁니다. 자동 반격음이나 무적을 연상시키는 과장된 폭발음은 넣지 않습니다.",
+        "prompt":"The silver-haired, blue-eyed knight in the reference raises her straight sword in a solemn oath, then advances into a convincing protective guard with her large navy shield. Let her body and shield move together with a clear sense of weight. Build to a broad silver protective radiance, then settle into a composed defensive stance suitable for returning to gameplay. The mood is resolute and reassuring, not aggressive. Guide the camera from her expression toward the shield and open the composition for the protective climax, without locking the choreography to exact poses. Preserve her silver armor, navy fabric, sword design, shield outline and gold trim. Keep her face readable and her hands visibly connected to their equipment. Do not add counterattacking allies, invulnerability, new weapons or dialogue."
+      }
+    },
+    {
+      "id":"rose", "name":"로즈", "title":"밤을 걷는 장미",
+      "basis":"스킬 기획 v3의 ‘밤장미의 장례’와 기존 원화를 참조한 제작 제안입니다. 최신 개별 기획은 아직 없으며 대상·피해·잠입 규칙을 영상으로 확정하지 않습니다.",
+      "awakening":{
+        "name":"밤장미의 장례", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"몸을 낮춘 짧은 준비와 빠른 사각 돌파, 선명한 단검 궤적이 대비되는 장면입니다.",
+        "timing":"대략 0~1초 낮은 준비 / 1~3초 사각 돌파와 단검 베기 / 3~4초 단검 회수와 착지",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for low anticipation, 1-3 seconds for the darting approach and dagger slashes, and 3-4 seconds for recovery.",
+        "flow":"낮은 준비에서 빠르게 파고들고, 두 단검의 방향이 구분되는 베기로 절정을 만듭니다. 망토의 꽃잎 같은 잔상이 뒤따른 뒤 두 단검을 회수해 전투 대기로 돌아갑니다.",
+        "camera":"로즈의 이동을 따라가는 측면 흐름과 베기 순간의 가까운 구도를 제안합니다. 화면 방향이 뒤집혀 동작이 혼란스러워지지 않게 합니다.",
+        "input":"현재 전신 원화로 시작할 수 있습니다. 두 단검이 겹치거나 손의 연결이 무너지면 그 부분의 참고 포즈를 보완합니다. 새 적 외형은 임의로 만들지 않습니다.",
+        "sound":"짧은 천 마찰과 빠른 바람, 서로 구분되는 날카로운 절개음을 제안합니다. 마무리는 가벼운 착지와 짧은 잔향입니다.",
+        "prompt":"The dual-dagger fighter in the reference lowers into a poised stance, darts through an opening and delivers a swift, readable sequence of dagger slashes. Contrast a brief moment of anticipation with explosive movement and a crisp finishing silhouette. Her cloak trails like scattered rose petals, then follows her recovery into a ready stance. Use responsive tracking and closer views that support the direction of her movement, with freedom to choose the most natural choreography. Keep both original daggers, their grips, her face, clothing and cloak consistent. Afterimages must remain visual trails, not duplicate fighters. Do not invent enemy designs, extra weapons, new powers or dialogue."
+      }
+    },
+    {
+      "id":"rena", "name":"레나", "title":"바람의 추적자",
+      "basis":"스킬 기획 v3의 ‘여명 끝의 추적’에 있는 빠른 연사와 마지막 강한 화살의 대비를 참조합니다. 옛 시간 기반 수치·자동 발동 조건은 가져오지 않습니다.",
+      "awakening":{
+        "name":"여명 끝의 추적", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"차분한 조준에서 빠른 연사로 속도를 올리고, 마지막 한 발로 집중시키는 사격입니다.",
+        "timing":"대략 0~1초 활 들기와 조준 / 1~3초 빠른 연사와 마지막 강한 한 발 / 3~4초 활 회수",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds to raise the bow and aim, 1-3 seconds for the quick volley and decisive final arrow, and 3-4 seconds to recover the bow.",
+        "flow":"활을 들고 목표를 잡은 뒤 가벼운 화살을 빠르게 잇습니다. 더 깊이 당긴 마지막 한 발이 바람을 가르며 절정을 만들고, 활을 회수해 대기로 돌아갑니다. 정확한 손의 위치와 컷 수는 고정하지 않습니다.",
+        "camera":"활을 당기는 손과 얼굴을 읽힌 뒤 화살의 방향으로 시야가 열리는 흐름을 제안합니다. 활 전체가 잘리지 않는 구도가 중요합니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 시위·화살·손의 접촉이 분리되지 않을 때만 당김과 놓음의 참고 포즈를 추가합니다. 정확한 타격 수와 시점은 실제 게임 기록에 맞춰 별도 검수합니다.",
+        "sound":"짧고 가벼운 시위음의 연속 뒤 마지막 한 발에 더 두꺼운 강세를 둡니다. 바람의 꼬리는 복귀 전에 짧게 정리합니다.",
+        "prompt":"The archer in the reference raises her bow with calm focus, releases a quick volley of light arrows and builds to one decisive final shot with a stronger draw and a clear wind trail. Show real drawing, releasing and recovery rather than a still portrait with moving effects. Let the final arrow provide the strongest visual accent, followed by a natural lowering of the bow into readiness. Favor views that reveal the bow, drawing hand and expression, opening toward the arrow's direction for the climax. Preserve the original bow's natural curve, bowstring connections, arrow handling, face and costume. Keep her hands and equipment coherent throughout. Do not invent additional combat powers or dialogue."
+      }
+    },
+    {
+      "id":"seriel", "name":"세리엘", "title":"새벽의 축복",
+      "basis":"스킬 기획 v3의 ‘꺼지지 않는 새벽’을 참조합니다. 회복·보호의 인상이며 부활·무적·상태 해제 표현은 추가하지 않습니다.",
+      "awakening":{
+        "name":"꺼지지 않는 새벽", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"기도서와 지팡이를 통해 빛을 모아 동료 쪽으로 넓게 인도하는 따뜻한 장면입니다.",
+        "timing":"대략 0~1초 책과 지팡이에 집중 / 1~3초 빛을 모아 넓게 펼치기 / 3~4초 소품과 대기 자세 회수",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for focus on the book and staff, 1-3 seconds for gathering and releasing the broad light, and 3-4 seconds for recovery.",
+        "flow":"책을 펼치며 집중하고 지팡이로 빛을 끌어올린 뒤, 몸과 팔을 열어 민트·금빛을 넓게 보냅니다. 큰 빛이 잦아들면 책과 지팡이를 받친 대기 자세로 돌아옵니다.",
+        "camera":"책과 얼굴을 가까이 본 뒤 팔의 호와 빛의 확산을 담는 넓은 구도로 이어가는 방향입니다. 구체적인 이동 경로는 자유롭게 둡니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 기도서·지팡이·손이 겹쳐 동작이 불명확할 때 해당 소품의 참고 자세를 보완합니다. 새 아군이나 부활 장면은 만들지 않습니다.",
+        "sound":"책장 넘김, 부드러운 중역 상승, 한 번의 맑은 고역 강세를 제안합니다. 공격 폭발음이나 미승인 기도 대사는 쓰지 않습니다.",
+        "prompt":"The healer in the reference opens her prayer book, lifts her staff and gathers a gentle light before opening her posture to send a broad wave of mint and gold radiance outward. Make the gesture feel purposeful and embodied, with a clear build, generous release and calm recovery. Move from the intimacy of her face and book toward a wider composition that reveals the healing gesture. Preserve the original staff, crystal, book, hands, face and clothing; keep the light from erasing these details. Finish with her staff and book held securely in a ready stance. Do not show resurrection, invulnerability, new characters or spoken prayer."
+      }
+    },
+    {
+      "id":"violet", "name":"바이올렛", "title":"황혼의 마녀",
+      "basis":"스킬 기획 v3의 ‘밤을 여는 꽃’을 참조합니다. 꽃잎 수를 피해 횟수로 해석하지 않습니다.",
+      "awakening":{
+        "name":"밤을 여는 꽃", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"작게 응축한 힘을 크게 열어 황혼의 꽃 한 송이가 피는 대비입니다.",
+        "timing":"대략 0~1초 힘 응축 / 1~3초 몸을 펴며 황혼의 꽃 개화 / 3~4초 지팡이 회수와 꽃 걷힘",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for gathering power, 1-3 seconds for the opening gesture and twilight bloom, and 3-4 seconds for recovery and clearing petals.",
+        "flow":"지팡이와 자유손으로 힘을 모았다가 몸을 펴며 넓게 엽니다. 커다란 꽃의 개화를 절정으로 삼고, 손과 지팡이를 회수하며 화면 중앙을 비웁니다.",
+        "camera":"압축된 가까운 구도에서 팔과 꽃의 큰 실루엣을 보는 넓은 구도로 대비를 줍니다. 카메라와 효과가 본체 동작을 대신하지 않게 합니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 자유손과 지팡이가 분리되지 않거나 꽃이 인물을 전부 덮을 때 구도 참고를 보완합니다. 꽃의 세부 디자인은 제작 제안입니다.",
+        "sound":"가는 긴장음에서 중역 상승을 거쳐 단일 개화 강세로 이어집니다. 꽃이 걷힐 때 고역 꼬리를 빠르게 비웁니다.",
+        "prompt":"The witch in the reference gathers power between her staff and free hand, then opens her body and arms into a confident releasing gesture. A large twilight flower blooms as the single visual climax, following her movement rather than replacing it. Contrast a compact, tense opening with a broad, striking bloom, then let the flower clear as she recovers her staff and stance. Use framing that grows from intimate concentration to a strong full silhouette, with natural freedom in the camera movement. Preserve her original face, hair, clothing, staff and hand anatomy. Petals must not become limbs or obscure her identity. Do not turn the bloom into repeated explosions or introduce new powers or dialogue."
+      }
+    },
+    {
+      "id":"elisis", "name":"엘리시스", "title":"홍련의 선봉",
+      "basis":"스킬 기획 v3의 ‘홍련관천’을 참조한 직선 돌파 표현입니다. 실제 격자 이동·강제 이동·추가 피해는 확정하지 않습니다.",
+      "awakening":{
+        "name":"홍련관천", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"긴 창의 준비선과 한 번의 강한 직선 찌르기로 속도와 무게를 보입니다.",
+        "timing":"대략 0~1초 창 당김과 준비 / 1~3초 전신을 실은 직선 찌르기 / 3~4초 창 회수",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for drawing the spear back, 1-3 seconds for the committed thrust and weighted stop, and 3-4 seconds for recovery.",
+        "flow":"창을 뒤로 당겨 힘을 모으고 전신을 실어 앞으로 찌릅니다. 창끝의 붉은 궤적과 단단한 멈춤이 절정이며, 이후 창을 회수해 대기로 돌아옵니다.",
+        "camera":"창의 길이가 보이는 측면 흐름을 중심으로, 절정에서 창끝의 깊이가 느껴지는 구도를 제안합니다. 이동축이 혼란스럽지 않게 합니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 창이 휘거나 손이 자루에서 미끄러질 때만 장비와 그립 참고를 보완합니다. 새 적의 모습과 관통 대상 수는 만들지 않습니다.",
+        "sound":"지면을 미는 출발음, 가늘고 긴 공기 절단, 단단한 단일 타격 강세를 제안합니다. 복귀는 자루 회수와 천 마찰입니다.",
+        "prompt":"The spear fighter in the reference draws her weapon back with controlled intent, then commits her whole body to one powerful straight thrust. Her red cloth and ponytail trail behind the movement, while the spear remains rigid and clearly readable. Build to a decisive extended silhouette and a red trail from the spear tip, then recover the weapon into a balanced ready stance. Favor a strong directional composition with responsive lateral movement and a sense of depth at the climax. Preserve the original spear length, hand grips, armor, face and hairstyle. Do not bend the shaft, teleport the character, invent enemies or imply extra hits beyond the thrust."
+      }
+    },
+    {
+      "id":"freya", "name":"프레야", "title":"적안의 폭풍",
+      "basis":"스킬 기획 v3의 ‘적안의 폭풍’에 있는 세 회전과 무게 있는 정지를 참조합니다. 새 변신이나 실제 자해 장면은 만들지 않습니다.",
+      "awakening":{
+        "name":"적안의 폭풍", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"무거운 도끼의 회전이 점점 힘을 얻고 마지막에 전신으로 멈추는 장면입니다.",
+        "timing":"대략 0~1초 도끼를 당겨 준비 / 1~3초 세 회전과 마지막 제동 / 3~4초 도끼 회수",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for weighted anticipation, 1-3 seconds for the spinning sweeps and final stop, and 3-4 seconds for recovery.",
+        "flow":"도끼를 낮게 당겨 준비하고 세 번의 큰 회전 궤적으로 폭풍 같은 기세를 만듭니다. 마지막 회전을 가장 강하게 제동한 뒤 도끼를 회수합니다. 회전마다 초 단위 자세를 지정하지 않습니다.",
+        "camera":"도끼가 잘리지 않는 넓은 구도와 회전 방향을 따라가는 시선을 제안합니다. 마지막 멈춤에서는 인물과 무기의 무게가 함께 읽혀야 합니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 회전 중 팔·도끼가 늘어나거나 복제되면 회전 구간을 나누어 연결하거나 참고 포즈를 보완합니다. 분할은 결과에 따라 선택합니다.",
+        "sound":"큰 바람 가르기의 박자를 구분하고 마지막에 가장 두꺼운 저역 강세를 둡니다. 복귀는 자루를 고쳐 잡는 마찰과 짧은 잔향으로 정리합니다.",
+        "prompt":"The axe fighter in the reference gathers momentum from a low, weighted preparation and unleashes a fierce sequence of three broad spinning sweeps. Let the movement build in force, with the final sweep ending in a convincing heavy stop before she recovers the axe into readiness. Show actual turning, shifting weight and weapon recovery, not a stationary character surrounded by spinning effects. Use dynamic framing that respects the direction of the sweeps and keeps the full axe readable. Preserve her original body, face, clothing, axe head, shaft and grips. Avoid duplicated arms or weapons, rubber-like metal, extra transformations and graphic self-injury. Keep the choreography fluid rather than tied to exact timed poses."
+      }
+    },
+    {
+      "id":"ember", "name":"엠버", "title":"호박빛 기적",
+      "basis":"스킬 기획 v3의 ‘유리병 속의 황혼’을 참조합니다. 약품의 중첩·면역·실제 피해는 영상에서 판정하지 않습니다.",
+      "awakening":{
+        "name":"유리병 속의 황혼", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"약병을 확인하는 호기심과 호박빛 약액을 크게 펼치는 호쾌한 동작을 대비합니다.",
+        "timing":"대략 0~1초 약병 확인 / 1~3초 약액의 큰 호와 방울 확산 / 3~4초 병과 균형 회수",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for inspecting the bottle, 1-3 seconds for the liquid arc and spreading droplets, and 3-4 seconds for recovery.",
+        "flow":"약병을 들어 빛에 비추고, 팔의 큰 호로 약액을 펼칩니다. 호박빛 방울이 공간을 채우는 순간을 절정으로 삼고 병과 몸을 안정적으로 회수합니다.",
+        "camera":"병과 표정을 가까이 본 뒤 약액의 큰 호를 보는 넓은 방향으로 이어갑니다. 정확한 카메라 경로는 고정하지 않습니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 손과 병이 합쳐지거나 병 모양이 바뀔 때 해당 부분의 참고를 보완합니다. 방울 수를 게임 대상 수로 해석하지 않습니다.",
+        "sound":"작은 유리 고역, 약액이 퍼지는 중역, 방울의 짧은 강세 묶음을 제안합니다. 거대한 화염 폭발음은 쓰지 않습니다.",
+        "prompt":"The alchemist in the reference lifts her glass bottle to inspect its amber contents, then sweeps her arm outward in a bold, flowing gesture that releases a broad arc of glowing droplets. Let the liquid follow a readable physical motion and form the brightest moment of the scene, then clear as she recovers the bottle and her balance. Contrast an intimate view of her curious expression and bottle with a wider view of the liquid arc. Preserve her face, costume, fingers and the original bottle's shape, neck and glass structure. Do not merge the bottle with her hand, multiply her equipment or turn the liquid into destructive fire or melting bodies."
+      }
+    },
+    {
+      "id":"aris", "name":"아리스", "title":"백랑의 계약자",
+      "basis":"스킬 기획 v3의 ‘백랑왕의 현현’을 참조합니다. 기존 백랑 한 마리의 강화 표현이며 새 적 늑대나 추가 소환수를 만들지 않습니다.",
+      "awakening":{
+        "name":"백랑왕의 현현", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"책을 여는 지휘 동작과 백랑 한 마리의 준비·도약·착지를 연결합니다.",
+        "timing":"대략 0~1초 책 펼침과 백랑의 준비 / 1~3초 백랑의 도약과 큰 휩쓸기 / 3~4초 착지와 안정",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for the book gesture and wolf's anticipation, 1-3 seconds for its sweeping leap, and 3-4 seconds for landing and settling.",
+        "flow":"아리스가 책을 펼치면 백랑이 낮게 힘을 모으고, 반투명 갈기와 문양이 겹친 채 한 차례 크게 휩쓸어 착지합니다. 마지막에는 같은 백랑 한 마리와 아리스의 안정된 구도로 돌아옵니다.",
+        "camera":"책과 백랑의 관계를 먼저 보인 뒤 백랑 높이의 역동적인 흐름으로 이어갑니다. 복귀에서는 둘의 연결을 다시 읽히는 방향입니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 백랑의 몸 전체나 다리 접촉이 불명확하면 같은 백랑의 참고 구도를 보완합니다. 갈기 실루엣은 추가 개체가 아닙니다.",
+        "sound":"책장과 낮은 공명 뒤 도약의 바람과 착지 강세를 제안합니다. 동물음을 쓴다면 짧은 비언어 소리로 따로 제작하고 명령 대사는 만들지 않습니다.",
+        "prompt":"The summoner in the reference opens her spellbook with a purposeful gesture, and her single white wolf gathers itself before a powerful sweeping leap. A larger translucent mane and luminous markings briefly reinforce the existing wolf's silhouette; they must not become another creature. Give the leap a readable preparation, energetic sweep and grounded landing, then settle the same wolf beside its summoner. Guide the camera from their relationship toward the wolf's movement and back to a composed shared view. Preserve the summoner's identity, book and clothing, and the wolf's original anatomy and appearance. Keep exactly one wolf; do not add summons, enemy wolves, extra limbs or dialogue."
+      }
+    },
+    {
+      "id":"sapira", "name":"사피라", "title":"푸른 달의 윤무",
+      "basis":"스킬 기획 v3의 ‘푸른 달의 윤무’를 참조합니다. 춤과 아군을 향한 달빛 표현이며 새 공격·기절 효과를 넣지 않습니다.",
+      "awakening":{
+        "name":"푸른 달의 윤무", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"두 차크람과 전신의 춤으로 달의 원을 완성하는 경쾌하고 우아한 장면입니다.",
+        "timing":"대략 0~1초 두 고리 모으기 / 1~3초 전신 회전과 달빛 원 완성 / 3~4초 발과 팔 정리",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for gathering the rings, 1-3 seconds for the full-body turn and completed moon circle, and 3-4 seconds for recovery.",
+        "flow":"두 고리를 모아 준비하고 한 바퀴의 춤으로 크게 엽니다. 달빛 원이 완성되는 균형 잡힌 자세를 절정으로 삼고, 발과 팔을 정리해 전투 대기로 돌아갑니다.",
+        "camera":"손과 지지발이 함께 보이는 구도에서 춤을 따라가고, 원이 열릴 때는 전체 실루엣을 보여 주는 방향입니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 회전 중 다리나 차크람이 합쳐지면 구도 참고를 보완합니다. 고리는 두 개로 유지합니다.",
+        "sound":"가벼운 발의 박자와 고리의 맑은 고역, 원이 완성될 때의 단일 강세를 제안합니다. 공격 충격음 대신 짧은 달빛 잔향을 씁니다.",
+        "prompt":"The dancer in the reference gathers her two chakrams, then opens into a graceful full-body turn that draws a broad moonlit circle. Let the choreography feel rhythmic and assured, with visible steps and arm movement leading the luminous trails. Build to an elegant, balanced open silhouette, then lower the rings and recover naturally into readiness. Use flowing camera movement that reveals both her hands and supporting foot, widening when the moon circle is complete. Preserve her original face, hairstyle, costume and exactly two chakrams with consistent grips and shapes. Do not replace the dance with floating rings, duplicate her limbs or introduce offensive explosions or new powers."
+      }
+    },
+    {
+      "id":"kaya", "name":"카야", "title":"질풍의 철권",
+      "basis":"스킬 기획 v3의 ‘질풍연환격’에 있는 짧은 연타와 마지막 정권을 참조합니다. 정확한 타격 수와 효과 시점은 게임 명세와 별도로 검수합니다.",
+      "awakening":{
+        "name":"질풍연환격", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"단단한 발의 지지에서 빠른 연타를 만들고 마지막 정권으로 길게 뻗는 대비입니다.",
+        "timing":"대략 0~1초 주먹과 지지 준비 / 1~3초 짧은 연타와 마지막 정권 / 3~4초 방어 자세 회수",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for grounded anticipation, 1-3 seconds for the quick punches and decisive straight finish, and 3-4 seconds for guard recovery.",
+        "flow":"주먹을 모아 준비한 뒤 짧고 선명한 연타로 기세를 올립니다. 마지막 정권에 전신의 힘을 싣고, 주먹을 회수해 방어 대기로 돌아갑니다.",
+        "camera":"몸통과 주먹의 연결을 읽히는 중경을 중심으로, 마지막 정권에 방향과 깊이를 주는 구도를 제안합니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 연타에서 팔이 복제되거나 손목이 꺾이면 동작 묶음을 나누거나 참고 자세를 보완합니다. 속도로 결함을 감추지 않습니다.",
+        "sound":"짧은 중역 타격의 연속과 마지막의 두꺼운 저역 강세를 제안합니다. 복귀는 옷 마찰로 정리하고 연타음을 다시 울리지 않습니다.",
+        "prompt":"The martial artist in the reference plants herself with focused intent, unleashes a compact burst of rapid punches and finishes with one long, decisive straight punch driven by her whole body. Make each visible strike feel connected to a real recovery rather than multiplying fists or arms. Contrast tight, quick movement with the final extended silhouette, then draw her hands back into a guarded ready stance. Favor framing that keeps her torso, striking hand and sense of balance readable, using a stronger directional view for the finish. Preserve her original face, hair, outfit and gauntlets. Avoid distorted wrists, duplicate limbs, giant reshaped fists and new supernatural powers."
+      }
+    },
+    {
+      "id":"chloe", "name":"클로에", "title":"장밋빛 탄환",
+      "basis":"스킬 기획 v3의 ‘장미가 지는 순간’을 참조합니다. 한 발의 조준과 반동을 중심으로 하며 조준 중 무적이나 새 약점 시스템을 만들지 않습니다.",
+      "awakening":{
+        "name":"장미가 지는 순간", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"조준의 짧은 정적을 한 발의 강한 반동으로 깨는 장면입니다.",
+        "timing":"대략 0~1초 장총 들기와 조준 / 1~3초 집중 뒤 한 발과 반동 / 3~4초 총 안정과 회수",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds to raise and aim the rifle, 1-3 seconds for focused anticipation followed by one shot and recoil, and 3-4 seconds for recovery.",
+        "flow":"장총을 들어 조준하고 잠깐 집중합니다. 한 번의 발사와 몸으로 받는 반동이 절정이며, 총을 안정시키고 대기로 회수합니다.",
+        "camera":"눈과 총열이 같은 의도를 보이는 구도에서 시작해 발사와 반동을 함께 읽히는 방향입니다. 정확한 견착 각도나 카메라 이동량은 지정하지 않습니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 총의 구조와 손의 접촉이 유지되는지 우선 확인하고, 필요한 경우에만 조준 참고를 보완합니다. 새로운 장전 구조는 만들지 않습니다.",
+        "sound":"가죽·금속 마찰 뒤 배경음을 잠깐 낮추고, 중저역 총성 한 번과 짧은 고역 파열을 제안합니다. 복귀 전에 긴 총성 꼬리를 정리합니다.",
+        "prompt":"The riflewoman in the reference raises her long gun, takes a brief moment of concentrated aim and fires one decisive shot. Let the rifle and her body respond together with convincing recoil, followed by a controlled recovery and lowering into readiness. Contrast quiet focus with a sharp, powerful release. Frame her eye line and barrel clearly, then allow the camera to support the recoil without obscuring the weapon. Preserve the original rifle's barrel, stock, trigger area and hand positions, along with her face, hair and costume. Keep a single muzzle flash and a single shot; do not invent burst fire, a different firearm, new loading mechanisms or dialogue."
+      }
+    },
+    {
+      "id":"dahlia", "name":"달리아", "title":"진홍의 만가",
+      "basis":"각성기는 스킬 기획 v3의 ‘진홍의 만가’를 참조합니다. 처치 파동은 조건부이므로 기본 영상에 고정하지 않습니다. 심상영역은 전설 보유 대상이며 사신 계열은 기존 예시 수준입니다.",
+      "awakening":{
+        "name":"진홍의 만가", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"긴 낫의 준비선과 넓은 수확 동작, 무게 있는 멈춤으로 위압감을 만듭니다.",
+        "timing":"대략 0~1초 낫을 뒤로 모으기 / 1~3초 넓은 수확과 무게 있는 멈춤 / 3~4초 낫 회수",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for gathering the scythe, 1-3 seconds for the broad reaping sweep and stop, and 3-4 seconds for recovery.",
+        "flow":"낫을 뒤로 회수해 힘을 모으고 한 번 넓게 거둡니다. 진홍빛 궤적과 낮은 멈춤이 절정이며, 낫을 다시 세워 전투 대기로 돌아옵니다.",
+        "camera":"낫 전체가 보이는 긴 구도에서 수확의 호를 따라가는 방향입니다. 절정의 멈춤은 인물과 낫을 함께 보여 줍니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 낫날이나 그립이 바뀌면 해당 장비 참고를 보완합니다. 새 적의 처치 장면은 고정하지 않습니다.",
+        "sound":"낮고 긴 절단 바람과 단일 수확 강세를 제안합니다. 처치 성공의 파동음은 실제 결과를 받은 경우에만 별도 큐로 검토합니다.",
+        "prompt":"The scythe wielder in the reference draws her long weapon back, gathers a grave and controlled momentum, then performs one broad reaping sweep. A crimson line follows the blade and resolves into a strong, weighted stopping pose before she recovers the scythe. Emphasize the contrast between a long preparation and a decisive sweeping release, with camera framing that keeps the full weapon and her silhouette readable. Preserve her original face, hair, costume, curved blade, shaft length and grips. Do not show automatic executions, repeated kill waves, gore or dismemberment. Any petal-like trail should support the motion without hiding her hands or changing her equipment."
+      },
+      "domain":{
+        "name":"심상영역 · 개별 이름 미정", "status":"보유 대상 확인 · 사신 계열의 미확정 시각 제안", "duration":"약 5초 제안", "durationEnglish":"Around five seconds is a suggested length for this domain opening, not a fixed timing requirement.",
+        "intent":"동료가 만든 마무리 기회를 받아들이는 공간을 엽니다. 개인 수확 공격보다 공간의 경계가 드러나는 인상이 중요합니다.",
+        "timing":"대략 0~1초 낫과 경계 준비 / 1~4초 넓은 호와 주변 경계 개방 / 4~5초 낫 회수와 전장 중앙 비우기",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for anticipation, 1-4 seconds for the broad sweep and surrounding boundary reveal, and 4-5 seconds for recovery and clearing the center.",
+        "flow":"낫을 앞에 가져와 준비하고 넓은 호로 경계를 엽니다. 진홍빛 꽃잎 같은 선이 공간 둘레에 정돈되면 낫을 회수해 전장으로 돌아옵니다.",
+        "camera":"인물의 집중에서 넓은 공간으로 시선을 확장하는 방향입니다. 공격 대상보다 동료가 설 자리를 보여 줍니다.",
+        "input":"현재 원화로 인물 동작을 시도할 수 있습니다. 영역 이름·정확한 모습은 미정이며 배경은 시각 제안입니다. 특정 배경이 꼭 필요해질 때만 추가 시안을 준비합니다.",
+        "sound":"낮은 경계 공명과 낫의 넓은 쓸림, 한 번의 개방 강세를 제안합니다. 지속·종료·처치 효과는 이 개방 영상과 분리합니다.",
+        "prompt":"Create a conceptual domain-opening scene for the scythe wielder in the reference, distinct from her direct reaping attack. She brings the scythe forward and makes a broad, ceremonial sweep that opens a surrounding boundary of restrained crimson, petal-like lines. Let the camera reveal space beyond her, leaving the center clear for allies rather than filling it with victims or attacks. Build to a composed moment in which she steadies the opened boundary, then recover her weapon and clear the foreground for gameplay. Preserve her original identity, costume and scythe design. This is a visual proposal for an unnamed domain, not a depiction of approved execution or healing mechanics. Do not add a title, dialogue, automatic kills, gore or new characters."
+      }
+    },
+    {
+      "id":"eileen", "name":"에일린", "title":"영겁의 모래",
+      "basis":"각성기는 ‘끝나지 않은 순간’, 심상영역은 기존 ‘영겁의 모래정원’ 방향을 참조합니다. 영역 시제품 방향은 받은 피해 일부 회복이며 위치·죽음·행동 순서를 되돌리지 않습니다.",
+      "awakening":{
+        "name":"끝나지 않은 순간", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"지팡이의 큰 원과 모래의 되감김을 몸의 동작으로 이끄는 집중된 장면입니다.",
+        "timing":"대략 0~1초 지팡이 준비 / 1~3초 역방향 원과 모래 끌어당김 / 3~4초 정상 흐름과 대기 회수",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for preparing the staff, 1-3 seconds for the reverse circle and pulling sand, and 3-4 seconds for normal flow and recovery.",
+        "flow":"지팡이를 앞으로 가져와 힘을 모으고 역방향 원을 그립니다. 호박빛 모래를 끌어당기는 순간에 강세를 준 뒤 정상 흐름과 대기 자세로 돌아옵니다.",
+        "camera":"손과 지팡이의 원을 읽히는 구도에서 얼굴의 집중으로 시선을 이끄는 방향입니다. 세부 궤적과 정확한 역회전 각도는 고정하지 않습니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 손·지팡이·모래시계가 합쳐지면 필요한 부분의 참고를 보완합니다. 실제 아군 피해 잔상은 게임 기록과 따로 연결합니다.",
+        "sound":"유리 고역과 모래 마찰에서 거꾸로 끌어당기는 중역으로 이어지는 안입니다. 복귀는 정상적인 모래 낙하음으로 정리합니다.",
+        "prompt":"The time-themed mage in the reference brings her staff forward and traces a broad reverse-flowing circle, then draws a stream of amber sand toward herself in a clear, purposeful gesture. Make her body and arms lead the motion, with the sand responding to the gesture rather than animating around a static portrait. Build to a concentrated pulling climax and settle back into her normal ready stance as the sand returns to a natural downward flow. Favor readable views of her expression, hands and staff with fluid camera freedom. Preserve her face, costume, staff and hourglass design. Do not reverse the entire battlefield, resurrect anyone, restore positions, add new powers or generate written clock numerals or dialogue."
+      },
+      "domain":{
+        "name":"영겁의 모래정원", "status":"기존 사용자 방향 · 구체 구도/음향은 제안", "duration":"약 6초 제안", "durationEnglish":"Around six seconds is suggested to give the garden reveal room to breathe; it is not a fixed shot schedule.",
+        "intent":"혼자 되감는 각성기와 달리 동료들이 함께 싸울 시간의 공간을 펼칩니다. 정원이 드러나는 여유를 두기 위해 조금 더 긴 길이를 제안합니다.",
+        "timing":"대략 0~2초 모래시계 집중과 개방 준비 / 2~5초 정원의 경계와 공간 드러내기 / 5~6초 대기 회수와 전장 중앙 비우기",
+        "timingEnglish":"Loose pacing guide: roughly 0-2 seconds for hourglass focus and anticipation, 2-5 seconds for unfolding the garden boundary and space, and 5-6 seconds for recovery and clearing the center.",
+        "flow":"모래시계에 집중한 뒤 지팡이의 넓은 움직임으로 모래의 경계를 엽니다. 공간 둘레로 흐름이 정돈되면 인물은 대기로 돌아오고 전장 중앙은 비워 둡니다.",
+        "camera":"모래시계와 표정의 가까운 인상에서 정원의 규모를 보여 주는 넓은 구도로 확장합니다.",
+        "input":"현재 원화로 인물의 개방 동작을 시작할 수 있습니다. 정원 모습은 별도 제작 제안이며 완성 배경을 확보했다고 보지 않습니다. 특정 구도가 필요해질 때 참고 이미지를 보완합니다.",
+        "sound":"가는 모래 소리에서 넓은 중역 쓸림과 저역 개방 강세로 확장합니다. 각성기의 짧은 역회전음과 구분하고, 종료 회복음은 실제 영역 종료 큐에 맡깁니다.",
+        "prompt":"Create a spacious domain-opening scene for the time-themed mage in the reference. She focuses on her hourglass and opens a broad gesture with her staff, unfolding a garden-like boundary of amber sand and delicate time motifs around the battlefield. Let the reveal grow from personal concentration into a shared space, with clear room for allies at the center. The climax is the establishment of the garden, not an immediate heal or attack. After the reveal, she recovers into readiness and the foreground clears for gameplay. Use a gradual widening of the composition with natural freedom in choreography. Preserve her original identity, staff, hourglass and costume. Do not show resurrection, position rewinds, extra characters, new dialogue or text."
+      }
+    },
+    {
+      "id":"adela", "name":"아델라", "title":"용혈기사",
+      "basis":"각성기는 스킬 기획 v3의 ‘청염의 계승’을 참조합니다. 인간형 갑주와 대검을 유지하며 완전 용 형태·상시 날개는 추가하지 않습니다. 영역의 화염 계열은 기존 예시이며 이름은 미정입니다.",
+      "awakening":{
+        "name":"청염의 계승", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"대검과 몸으로 각성의 힘을 받아내는 장면입니다. 신체를 교체하는 변신이 아니라 인간형의 청염 각성입니다.",
+        "timing":"대략 0~1초 대검을 모아 준비 / 1~3초 들어 올림과 청염 각성 / 3~4초 빛 날개를 접고 대기 회수",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for gathering the greatsword, 1-3 seconds for the lift and flame awakening, and 3-4 seconds for fading the light wings and recovery.",
+        "flow":"대검을 몸 가까이 당겨 준비하고 힘 있게 들어 올립니다. 몸을 펴며 짧은 용염 날개 실루엣을 절정으로 드러낸 뒤, 인간형 갑주와 검의 발광만 남긴 대기로 돌아옵니다.",
+        "camera":"대검의 무게가 보이는 낮은 구도에서 전체 각성 실루엣을 보는 넓은 방향을 제안합니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 검의 그립이나 빛 날개의 범위가 달라질 때 참고를 보완합니다. 빛 실루엣을 실제 신체 날개로 만들지 않습니다.",
+        "sound":"낮은 금속 공명에서 중저역 상승과 점화 강세로 이어갑니다. 큰 점화 뒤 짧은 불꽃 잔향만 남기며 미승인 포효나 대사는 없습니다.",
+        "prompt":"The armored greatsword knight in the reference gathers her weapon close, then lifts it with a powerful full-body awakening gesture. Blue-green flame ignites along the sword and armor, building to a brief dragon-flame wing silhouette behind her shoulders before fading back to controlled light on her human form and blade. Make the lift, release of power and recovery physically convincing, ending in a balanced combat-ready stance. Use framing that conveys the sword's weight and opens to reveal the awakening silhouette. Preserve her original face, body, armor, greatsword and grips. Do not transform her into a dragon, grow permanent wings or extra limbs, invent an attack impact or add dialogue."
+      },
+      "domain":{
+        "name":"심상영역 · 개별 이름 미정", "status":"보유 대상 확인 · 화염 계열의 미확정 시각 제안", "duration":"약 5초 제안", "durationEnglish":"Around five seconds is a suggested length for the shared flame-space reveal, without fixed pose timings.",
+        "intent":"개인 각성과 구분해 동료가 함께 완성할 불씨의 공간을 엽니다. 불필요하게 늘리기보다 넓은 개방 동작과 공간의 인상을 남깁니다.",
+        "timing":"대략 0~1초 대검 준비 / 1~4초 넓은 쓸기와 불씨 공간 개방 / 4~5초 검 회수와 큰 불꽃 정리",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for anticipation, 1-4 seconds for the broad sword sweep and shared flame-space reveal, and 4-5 seconds for recovery and clearing large flames.",
+        "flow":"대검을 낮춰 준비하고 넓게 쓸어 청염의 경계를 엽니다. 주변 불씨가 정돈되면 검을 회수하며 전장으로 돌아옵니다.",
+        "camera":"검의 큰 호에서 영역 둘레로 시선을 확장합니다. 개인 용염 날개 대신 동료가 설 공간을 중심으로 보여 줍니다.",
+        "input":"현재 원화로 인물 동작을 시도할 수 있습니다. 불씨와 공간의 형태는 미확정 시각 제안입니다. 실제 배경 방향이 정해지면 참고를 보완합니다.",
+        "sound":"넓은 불꽃 이동과 낮은 경계음, 단일 개방 강세를 제안합니다. 불씨의 조건부 폭발·지속·종료는 별도 상태 큐로 분리합니다.",
+        "prompt":"Create a conceptual domain-opening scene for the greatsword knight in the reference, distinct from her personal awakening. She prepares her blade and makes a broad, commanding sweep that opens a shared boundary of blue-green flame and restrained embers. Let the camera reveal the surrounding space while keeping a clear central area for allies. Build to a strong establishment of the boundary, then recover the sword and clear the large foreground flames for gameplay. Preserve her human form, original face, armor, greatsword and grips. This is a visual proposal for an unnamed flame domain, not a confirmation of damage or combo mechanics. Do not add permanent wings, a dragon transformation, automatic explosions on enemies, a title or dialogue."
+      }
+    },
+    {
+      "id":"lunea", "name":"루네아", "title":"낙성의 인도자",
+      "basis":"각성기는 스킬 기획 v3의 ‘밤하늘의 종언’을 참조합니다. 별비·성흔 표현이며 새 다중 판정·시간 정지 능력·부활은 넣지 않습니다. 영역의 사수 계열은 기존 예시이며 이름은 미정입니다.",
+      "awakening":{
+        "name":"밤하늘의 종언", "status":"기존 스킬 명세 기반 시각 제안",
+        "intent":"하늘로 활을 당기는 큰 동작과 높은 공간에서 떨어지는 별비의 낙차를 대비합니다.",
+        "timing":"대략 0~1초 활 들기와 당김 / 1~3초 놓음과 높은 성좌·별비 / 3~4초 보조 빛을 접고 활 회수",
+        "timingEnglish":"Loose pacing guide: roughly 0-1 seconds for raising and drawing the bow, 1-3 seconds for release and the high constellation starfall, and 3-4 seconds for fading auxiliary light and recovery.",
+        "flow":"활을 높이 들어 당기며 빛의 보조 활대를 엽니다. 한 번의 놓음에서 성좌와 별비가 절정을 만들고, 보조 빛을 접으며 기본 활의 대기로 돌아옵니다.",
+        "camera":"활을 드는 인물에서 높은 낙하 공간으로 시선을 확장하는 방향입니다. 구체적인 팬·틸트 경로는 고정하지 않습니다.",
+        "input":"현재 원화로 시작할 수 있습니다. 손·시위와 기본 활의 형태를 우선 확인합니다. 성좌·별비의 구체 구도가 필요해지면 별도 참고를 보완합니다.",
+        "sound":"결정의 가는 고역과 시위의 상승, 한 번의 발사 강세 뒤 별빛 파열을 짧은 묶음으로 제안합니다. 복귀에서는 고역 꼬리를 비웁니다.",
+        "prompt":"The celestial archer in the reference raises her bow toward the sky, draws with focused intent and releases a decisive shot that opens delicate constellation lines above the scene. Brief luminous extensions follow the ends of her existing bow, leading into a silver-blue starfall as the visual climax. Let the drawing and release remain real, readable body motion, then fold the auxiliary light away as she lowers the original bow into readiness. Guide the camera from the archer toward the height and downward movement of the starfall, without a rigid shot schedule. Preserve her original face, hair, costume, bow curvature, crystal and string connections. Do not replace the bow, invent enemies, multiply damage events, stop the battlefield's time or add dialogue."
+      },
+      "domain":{
+        "name":"심상영역 · 개별 이름 미정", "status":"보유 대상 확인 · 사수 계열의 미확정 시각 제안", "duration":"약 6초 제안", "durationEnglish":"Around six seconds is suggested for the wider constellation-space reveal, not as a fixed sequence of timed poses.",
+        "intent":"낙성 공격과 달리 동료들의 서로 다른 사격선을 담을 별의 공간을 엽니다. 공간 확장이 읽히도록 각성기보다 여유 있는 길이를 제안합니다.",
+        "timing":"대략 0~2초 활과 개방 준비 / 2~5초 넓은 성좌 경계 드러내기 / 5~6초 활 회수와 전장 중앙 비우기",
+        "timingEnglish":"Loose pacing guide: roughly 0-2 seconds for bow preparation, 2-5 seconds for unfolding and connecting the spacious constellation boundary, and 5-6 seconds for recovery and clearing the center.",
+        "flow":"활을 앞에 가져와 준비하고 넓은 호로 성좌의 경계를 엽니다. 공간 둘레의 별 선이 연결되면 활과 몸을 대기로 회수합니다. 개방 순간에 일제 사격을 미리 재생하지 않습니다.",
+        "camera":"활 중앙의 집중에서 넓은 전장 공간으로 확장합니다. 개인 사격의 근접 강세보다 주변 공간의 깊이를 보여 줍니다.",
+        "input":"현재 원화로 인물의 개방 동작을 시도할 수 있습니다. 영역의 이름·성좌 구도는 미정이며 필요해질 때 별도 시안을 보완합니다.",
+        "sound":"작은 결정음에서 넓은 공명과 단일 개방 강세로 확장합니다. 지속 표식·종료 일제 사격음은 실제 영역 상태의 별도 큐입니다.",
+        "prompt":"Create a conceptual domain-opening scene for the celestial archer in the reference, distinct from her starfall attack. She brings the bow forward and opens a broad, graceful gesture that unfolds a surrounding network of delicate constellation lines. Reveal a spacious shared field with a clear center for allies, rather than firing a volley or striking targets during the opening. Build to the moment the surrounding star lines connect, then recover the bow and clear the foreground for gameplay. Let the composition widen naturally from her focused expression to the larger field. Preserve her original identity, costume, crystal, bow and string. This is a visual proposal for an unnamed domain; do not add a title, fixed mark counts, new characters, automatic attacks or dialogue."
+      }
+    }
+  ]
+}

@@ -5,7 +5,7 @@ for (const video of document.querySelectorAll('video')) {
   video.addEventListener('loadedmetadata', ready);
   video.addEventListener('canplay', ready);
   video.addEventListener('waiting', () => { status.textContent = '영상을 불러오는 중입니다.'; });
-  video.addEventListener('playing', () => { status.textContent = '무음 영상 재생 중입니다.'; });
+  video.addEventListener('playing', () => { status.textContent = '영상 재생 중입니다.'; });
   video.addEventListener('pause', ready);
   video.addEventListener('ended', () => { status.textContent = '재생이 끝났습니다. 재생 버튼으로 다시 보실 수 있습니다.'; });
   video.addEventListener('error', failed);

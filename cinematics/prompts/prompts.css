@@ -1,0 +1,60 @@
+html { scroll-padding-top: 18px; }
+button, textarea { font: inherit; }
+button, textarea, a, summary { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, textarea:focus-visible, h2:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+p, li, dd, a { overflow-wrap: anywhere; }
+p + p { margin-top: 14px; }
+#character-index { padding-bottom: 24px; }
+.character-nav { display: flex; flex-wrap: wrap; gap: 6px 12px; margin: 18px 0 12px; }
+.character-nav a { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 64px; padding: 7px 12px; border: 1px solid var(--line); border-radius: 3px; text-decoration: none; }
+.character-nav a:hover { border-color: var(--accent); }
+.character-nav a[aria-current="true"] { color: #131820; background: var(--accent); border-color: var(--accent); font-weight: 700; }
+.guide { border-top: 1px solid var(--line); margin-bottom: 36px; }
+.guide > details { padding: 8px 0; border-bottom: 1px solid var(--line); }
+summary { min-height: 44px; padding: 9px 2px; cursor: pointer; color: var(--accent); }
+.guide details > p, .guide details > ul, .guide details > dl { margin: 14px 0 18px; max-width: 900px; }
+.tool-facts, .sound-plan { margin: 20px 0; }
+dt { font-weight: 700; color: #f1e8dc; margin-top: 22px; }
+dd { margin: 6px 0 0; }
+.source-links a { display: inline-flex; align-items: center; min-height: 44px; margin-right: 22px; }
+.character { border-top: 1px solid var(--line); padding-top: 36px; scroll-margin-top: 20px; }
+.character-overview { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 42px; align-items: start; margin-bottom: 40px; }
+.character-overview h2 { font-size: 36px; }
+.basis { margin-top: 16px; }
+.availability { border-left: 3px solid var(--accent); padding-left: 14px; }
+.art-frame { position: relative; background: #1b222c; }
+.art-figure a { display: block; }
+.art-figure img { display: block; width: 100%; height: auto; }
+.art-figure figcaption { margin-top: 10px; color: var(--muted); font-size: 14px; }
+.art-status { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: #1b222c; color: var(--muted); padding: 18px; text-align: center; }
+.skill { border-top: 1px solid var(--line); padding-top: 28px; margin-top: 36px; }
+.skill > h3 { font-size: 26px; line-height: 1.4; color: #f1e8dc; }
+.skill-intent { max-width: 880px; margin-top: 14px; }
+.direction-notes { max-width: 900px; margin-bottom: 24px; }
+.duration { margin-top: 14px; }
+.input-notes { margin: 6px 0 18px; }
+.input-notes p { max-width: 860px; margin: 8px 0; }
+.input-notes a { display: inline-flex; align-items: center; min-height: 44px; margin-right: 22px; }
+.full-prompt { margin: 28px 0 32px; }
+.full-prompt label { display: block; color: var(--accent); font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+.full-prompt > .note { margin-bottom: 12px; }
+.prompt-text { display: block; width: 100%; min-height: 245px; padding: 18px; line-height: 1.7; resize: vertical; border: 1px solid #657285; border-radius: 3px; background: #1b222c; color: #d6dbe1; }
+.copy-row { display: flex; align-items: center; gap: 10px 18px; flex-wrap: wrap; margin-top: 12px; }
+.copy-row button { cursor: pointer; min-height: 44px; padding: 8px 18px; border: 1px solid var(--accent); border-radius: 3px; color: #131820; background: var(--accent); font-weight: 700; }
+.copy-row button:hover { background: #f6d5a2; }
+.copy-row button:disabled { cursor: wait; }
+.copy-status { min-height: 26px; color: var(--accent); font-size: 15px; margin-top: 8px; }
+.back-to-index { display: inline-flex; align-items: center; min-height: 44px; margin: 4px 0 30px; }
+@media (max-width: 700px) {
+  .character-overview { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .art-figure { max-width: 180px; }
+  .character-overview h2 { font-size: 30px; }
+  .character-nav { gap: 8px; }
+  .character-nav a { min-width: 62px; padding: 7px 10px; }
+  .guide { margin-bottom: 28px; }
+  .prompt-text { padding: 14px; }
+  .character { padding-top: 28px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
