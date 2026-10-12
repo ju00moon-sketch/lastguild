@@ -1,5 +1,4 @@
-.page-nav { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-bottom: 24px; }
-.page-nav a, .section-link, .file-link { display: inline-flex; align-items: center; min-height: 44px; }
+.section-link, .file-link { display: inline-flex; align-items: center; min-height: 44px; }
 .section-link { margin-top: 12px; }
 .work-section { border-top: 1px solid var(--line); padding: 32px 0 40px; scroll-margin-top: 24px; }
 .video-row { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 28px; align-items: start; margin-top: 22px; }
@@ -17,5 +16,4 @@ video:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
 @media (max-width: 760px) {
   .video-row, .pose-requirements { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .work-section { padding: 28px 0 32px; }
-  .page-nav { column-gap: 22px; }
 }

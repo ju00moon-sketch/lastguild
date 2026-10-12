@@ -20,6 +20,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .skip-link { position: absolute; left: 16px; top: -100px; padding: 10px 16px; background: #131820; z-index: 1; }
 .skip-link:focus { top: 12px; }
 .back-link { display: inline-flex; min-height: 44px; align-items: center; margin-bottom: 28px; }
+.page-nav { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-bottom: 24px; }
+.page-nav a { display: inline-flex; align-items: center; min-height: 44px; }
 .page-header { padding-bottom: 36px; }
 h1, h2, h3, p, figure { margin: 0; }
 h1 { color: #f1e8dc; font-size: clamp(30px, 4vw, 42px); line-height: 1.3; letter-spacing: -.03em; }
@@ -72,6 +74,7 @@ h3 { color: #e5b66a; font-size: 18px; font-weight: 600; }
 footer { border-top: 1px solid var(--line); padding-top: 24px; color: var(--muted); font-size: 14px; }
 footer a { display: inline-flex; align-items: center; min-height: 44px; margin-top: 6px; }
 @media (max-width: 760px) {
+  .page-nav { column-gap: 22px; }
   .section-heading { display: block; }
   .status { margin-top: 10px; }
   .issue-section { gap: 24px; }
